@@ -1,0 +1,19 @@
+.item__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    border-bottom: 1px solid var(--mainBlack);
+    padding-bottom: 10px;
+}
+.info__box {
+    font-size: 1.1rem;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.remove__btn {
+    margin-left: 20px;
+    background-color: var(--mainRed);
+}

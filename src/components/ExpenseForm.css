@@ -1,0 +1,23 @@
+.input__container {
+    display: flex;
+    margin: 20px 0;
+}
+.input__box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.input__box input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    line-height: 1.6;
+    font-size: 1.2rem;
+    border-bottom: 1px solid var(--mainRed);
+    width: 90%;
+    margin-top: 10px;
+}
+.editing__btn {
+    background-color: var(--subColor);
+    color: var(--mainBlack)
+}
